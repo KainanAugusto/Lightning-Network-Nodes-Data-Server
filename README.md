@@ -24,7 +24,6 @@ cargo build
 
 3. Set up PostgreSQL and run the code to create the nodes table:
 ```
-
 CREATE TABLE nodes (
     public_key VARCHAR(255) PRIMARY KEY,
     alias VARCHAR(255),
@@ -53,9 +52,9 @@ Approximately 5 hours were spent on this project, including architecture design,
 
 ## Trade-Offs Made
 Due to time constraints, I focused on core functionality—data fetching, storage, and exposure. With additional time, I would implement:
-- Enhanced error handling (e.g., more detailed user feedback for API failures).
+- Enhanced error handling (more detailed user feedback for API failures).
 - Unit and integration tests for various parts of the code.
-- More robust API documentation.
+- More robust API and documentation.
 
 ## Weaknesses
 The project’s weakest aspect may be the lack of robust error handling and testing. While basic logging is implemented, the error responses could be improved to be more user-friendly.
