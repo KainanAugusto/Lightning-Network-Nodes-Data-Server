@@ -33,7 +33,7 @@ CREATE TABLE nodes (
 );
 ```
 
-4. Update the database connection settings in your .env file:
+4. Create a .env file in the project root directory and update the database connection settings:
 ```
 DATABASE_URL=postgres://user:password@localhost/database_name
 ```
